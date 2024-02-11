@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title> An About Us Page | CoderGirl </title>
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="{% static 'about.css' %}">
+</head>
+<body>
+
+  <a href='/'><button class = "button2" >Home</button></a>
+  <!-- <a href="/">Home</a> -->
+  <section class="about-us">
+   
+   
+    
+    <div class="about">
+        <img src="{% static './index2.jpg' %}" class="pic">
+      <div class="text">
+        <h2>About Us</h2>
+        <h5>Web Developer & <span>Designer</span></h5>
+        <p>Hello, My name is Pankaj</p>
+          <p>I am a software engineer with good experience in developing and maintaining web applications. I have a strong understanding of object-oriented programming, database design, and software development best practices. I am also proficient in a variety of programming languages and frameworks, including Python and Django.</p>
+        <div class="data">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
